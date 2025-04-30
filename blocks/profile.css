@@ -1,0 +1,135 @@
+.profile {
+    margin: 40px auto 0;
+    display: flex;
+    width: 880px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profile__img {
+    width: 120px;
+    height: 120px;
+    margin-top: 30px;
+    margin-right: 40px;
+}
+
+.profile__content {
+    width: 415px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.profile__content-horizontal {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 1rem;
+}
+
+.profile__name {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 48px;
+    color: #FFFFFF;
+    margin-bottom: 0;
+}
+
+
+.profile__about {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.profile__button {
+    background-color: black;
+    /* width: 150px;
+    height: 50px; */
+    /* margin-left: auto; */
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.profile__img_content {
+    display: flex;
+}
+
+
+@media (max-width: 860px) {
+    .profile {
+        margin: 40px auto 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 320px;
+    }
+
+    .profile__content-horizontal {
+        display: flex;
+
+    }
+
+    .profile__img_content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .profile__img {
+        width: 120px;
+        height: 120px;
+        margin: 30px auto 30px;
+
+    }
+
+    .profile__button {
+        background-color: black;
+        background: none;
+        border: none;
+        cursor: pointer;
+
+    }
+
+    .profile__content {
+        width: 282px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .profile__name {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 27px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .profile__button-agregar{
+        width: 18px;
+    }
+    .profile__about {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .profile__button_img{
+        max-width: 100%;
+        height: auto;
+    }
+
+}
