@@ -7,7 +7,7 @@
     border: 1px solid #545454;
 }
 
-@media (max-width: 544px){
+@media (max-width: 860px){
     .header{
         margin: 20px 0;
     }

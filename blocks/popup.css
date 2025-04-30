@@ -60,17 +60,29 @@
 
     @media (max-width: 860px){
         .popup{
-            width: 282px;
+
             height: 322px;
             display: flex;
             justify-content: center;
+            top: 250px;
+            left: 0;
+
         }
         .popup__overlay{
+            position: fixed;
+            top: 0;
+            left: 0;
             width: 100%;
-            height: 100vh;
+            height: 100%;
         }
         .popup__content{
             width: 282px;
             position: relative;
+        }
+        .popup__close{
+            position: absolute;
+            bottom: 340px;
+            left: 280px;
+            font-size: 28px;
         }
     }
