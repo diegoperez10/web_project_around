@@ -5,7 +5,9 @@
     font-size: 18px;
     line-height: 22px;
     color: #545454;
-    margin: 60px 200px;
+    margin: 60px auto;
+    max-width: 880px;
+
 }
 @media (max-width: 860px){
 
