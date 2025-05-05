@@ -12,7 +12,7 @@
     row-gap: 20px;
 }
 
-.elements__card_img {
+.elements__card-img {
     border-radius: 10px 10px 0px 0px;
     width: 282px;
 }
@@ -29,13 +29,13 @@
     
 }
 
-.elements__card_text {
+.elements__card-text {
     display: flex;
     flex-direction: row;
 
 }
 
-.elements__card_title {
+.elements__card-title {
     font-family: 'Inter';
     font-style: normal;
     font-weight: bolder;
@@ -47,7 +47,7 @@
     white-space: nowrap;
     overflow: hidden;
 }
-.elements__card_icon{
+.elements__card-icon{
     width: 24px;
 }
 
