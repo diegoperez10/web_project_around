@@ -32,11 +32,12 @@
 .elements__card-text {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
 
 }
 
 .elements__card-title {
-    font-family: 'Inter';
     font-style: normal;
     font-weight: bolder;
     font-size: 24px;
