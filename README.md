@@ -1,5 +1,5 @@
 # 
-# Nombre del Proyecto web project around
+# Web project around
   
 Este proyecto es una aplicación web diseñada colocando a prueba el conocimiento basico de JAVASCRIPT y de uso de GRIDS. Una web adaptable a celulares.
 
